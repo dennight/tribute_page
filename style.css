@@ -1,0 +1,96 @@
+:root {
+    --bg-white: #ffffff;
+    --bg-gray: #eeeeee;
+    --text-black-color: #000000;
+    --text-grey-color: #2F4F4F;
+    --text-blue-color: #000080;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: var(--bg-white);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-blue-color);
+}
+
+li {
+    list-style-type: none;
+    line-height: 2;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: var(--text-black-color);
+    margin-bottom: 20px;
+}
+
+.grey {
+    color: var(--text-grey-color);
+}
+
+.default-text {
+    color: var(--text-black-color);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main {
+    background-color: var(--bg-gray);
+    padding: 50px 25px;
+    margin: 20px;
+}
+
+.block {
+    padding: 25px 0;
+}
+
+.block p {
+    margin-bottom: 10px;
+}
+
+.block img {
+    margin-top: 10px;
+}
+
+.title-of {
+    font-weight: 300;
+    font-style: italic;
+    color: var(--text-blue-color);
+}
+
+.theatre::before {
+    content: url(img/drama-masks.svg);
+    padding: 0 5px 0 0;
+}
+
+.cinema::before {
+    content: url(img/movie-outline.svg);
+    padding: 0 5px 0 0;
+}
+
